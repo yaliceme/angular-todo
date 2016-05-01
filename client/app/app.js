@@ -2,6 +2,7 @@
 angular.module('AngularTodo', [
   'home',
   'list',
+  'services',
   'ngRoute'
 ])
 .config(['$routeProvider', function ($routeProvider) {
